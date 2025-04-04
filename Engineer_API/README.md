@@ -10,16 +10,9 @@ Normalice los datos obtenidos y los almacene en un archivo plano (`.csv` o `.txt
 1. Clonar o descargar repositorio.
 2. Asegurate de tener Python 3.8 o superior instalado.
 3. Instalar dependencias necesarias
-
-```bash
-pip install requests
-```
-
+  ```bash pip install requests ```
 4. Ejecutá el script principal desde consola:
-
-```bash
-python main.py
-```
+  ```bash python main.py ```
 
 5. El script te pedirá que selecciones:
    - Qué monedas querés importar (una o más de):
@@ -66,7 +59,7 @@ El archivo generado contiene una fila por cotización, con los siguientes campos
 ## 📁 Estructura del proyecto
 
 ```
-monedas-api/
+Engineer_API/
 ├── main.py                  # Script principal (interactivo)
 ├── extraccion_monedas.py    # Lógica de extracción, normalización y guardado
 ├── requirements.txt         # Dependencias del proyecto
